@@ -1,7 +1,11 @@
 # O que é ?
 Code feito durante as aulas da semana omnistack da rocketseat   
-06-08-2019
-
+05-08-2019 (ok)  
+06-08-2019 (ok)  
+07-08-2019 (Pendente - Vídeo disponivel)  
+08-08-2019 (Pendente - Indisponivel)  
+09-08-2019 (Pendente - Indisponivel)
+>Pedente = não tive tempo de ver o vídeo da aula, ainda.
 * Express
 * NodeJs
 * MongoDB
