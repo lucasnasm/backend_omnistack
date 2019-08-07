@@ -4,4 +4,11 @@ Code feito durante as aulas da semana omnistack da rocketseat
 
 * Express
 * NodeJs
+* MongoDB
+* Mongoose(ODM)
 
+
+# Anotações
+{ } desestruturação  
+async wait com axios
+cors - permite que a aplicação seja acessada por qualquer endereço

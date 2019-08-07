@@ -2,6 +2,7 @@
 const dotenv = require('dotenv')
 const express = require('express')
 const mongoose = require('mongoose')
+const cors = require('cors')
 dotenv.config()
 //import de arquivo na mesma pasta
 const routes = require('./routes')
@@ -9,13 +10,14 @@ const routes = require('./routes')
 //instancia do express
 const server = express();
 
+//conexão com o mongodb
+mongoose.connect(process.env.DB_CON,{
+    useNewUrlParser:true
+})
 
+server.use(cors())
 //fazendo com que o express entenda json na req
 server.use(express.json())
-
-//conexão com o mongodb
-mongoose.connect(process.env.DB_CON,{useNewUrlParser:true})
-
 //carregando rotas
 server.use(routes)
 
