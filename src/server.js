@@ -5,7 +5,7 @@ const server = express();
 
 //metodo get com arrow function
 server.get('/', (req,res) => {
-  return res.send("Hello World")
+  return res.json({message: `OLá ${req.query.name}`})
 })
 
 
