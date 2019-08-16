@@ -31,3 +31,4 @@ $ yarn rundev (para rodar o server)
 { } desestruturação  
 async wait com axios  
 cors - permite que a aplicação seja acessada por qualquer endereço
+Event Loop
