@@ -1,4 +1,4 @@
-//carregar variaveis ambiente - não expor minhas configs do db no git
+//carregar variaveis ambiente - não expor minhas configurações do db no git
 const dotenv = require('dotenv')
 const express = require('express')
 const mongoose = require('mongoose')
